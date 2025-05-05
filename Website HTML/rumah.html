@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tugas Buat Website</title>
+    <style>
+      .navbar {
+        display: flex;
+        justify-content: right;
+        padding: 0px;
+        position: sticky;
+        top: 0;
+      }
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        padding: 8px 16px;
+        border-radius: 20px;
+      }
+
+      .navbar a:hover {
+        background-color: #4caf50;
+      }
+
+      .active {
+        background-color: #4caf50;
+        color: white;
+      }
+
+      .login-button {
+        font-size: 30px;
+        background-color: #4caf50;
+        color: white;
+        padding: 20px 40px;
+        border-radius: 40px;
+        margin-left: 70px; /* Kasih jarak dari teks */
+      }
+
+      .percobaan1 {
+        font-family: "Franklin Gothic Medium";
+        font-size: 80px;
+        width: 1350px;
+        margin: 60px auto;
+        color: aqua;
+      }
+
+      .percobaan2 {
+        font-family: "Times New Roman";
+        font-size: 60px;
+      }
+
+      .container {
+        display: flex; /* Ini yang bikin sejajar */
+        align-items: center; /* Tengahin vertikal */
+        justify-content: center; /* Tengahin horizontal */
+        margin-top: -15px;
+      }
+
+      body {
+        background-color: #121212;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="rumah.html" class="active">RUMAH</a>
+      <a href="penjelasan.html">PENJELASAN AWAL</a>
+      <a href="tentang.html">TENTANG KESEHATAN</a>
+      <a href="saran.html">SARAN MASUKAN</a>
+    </div>
+
+    <h1 class="percobaan1">Healty Feture</h1>
+
+    <!-- BUNGKUS teks dan tombol -->
+
+    <div class="container">
+      <p class="percobaan2">
+        Di Dalam Tubuh <br />
+        yang Sehat <br />
+        Terdapat Jiwa <br />
+        yang kuat
+      </p>
+      <button class="login-button" onclick="window.location.href='penjelasan.html';">
+        <p>Mulai</p>
+      </button>
+    </div>
+  </body>
+</html>

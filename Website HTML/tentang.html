@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Kesehatan</title>
+    <style>
+      body {
+        background-color: #121212;
+        color: #ffffff;
+      }
+      .navbar {
+        display: flex;
+        justify-content: right;
+        padding: 0px;
+        position: sticky;
+        top: 0;
+      }
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        padding: 8px 16px;
+        border-radius: 20px;
+      }
+
+      .navbar a:hover {
+        background-color: #4caf50;
+      }
+
+      .active {
+        background-color: #4caf50;
+        color: white;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 150px;
+        margin-top: 50px;
+        padding: 150px;
+      }
+      .card {
+        text-align: center;
+      }
+      .card a {
+        color: white;
+        text-decoration: none;
+      }
+      .card img {
+        width: 200px;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="rumah.html">RUMAH</a>
+      <a href="penjelasan.html">PENJELASAN AWAL</a>
+      <a href="tentang.html" class="active">TENTANG KESEHATAN</a>
+      <a href="saran.html">SARAN MASUKAN</a>
+    </div>
+
+    <div class="grid-container">
+      <div class="card">
+        <a href="kalori.html">
+          <div>Apa itu Kalori?</div>
+          <img src="https://asset.kompas.com/crops/gXixgul-Ro__6z7i8us2WV6aeTk=/0x0:1000x667/1200x800/data/photo/2020/12/21/5fdff3270376f.jpg" alt="Apa itu Kalori?" />
+        </a>
+      </div>
+      <div class="card">
+        <a href="diet.html">
+          <div>Bagaimana Cara Diet</div>
+          <img src="https://akcdn.detik.net.id/community/media/visual/2021/06/24/ilustrasi-diet-dash_169.jpeg?w=620" alt="Bagaimana Cara Diet" />
+        </a>
+      </div>
+      <div class="card">
+        <a href="stres.html">
+          <div>Cara Mengatasi Stres</div>
+          <img src="https://suaraaisyiyah.id/wp-content/uploads/2020/03/Cara-mengatasi-stres.jpg" alt="Cara Mengatasi Stres" />
+        </a>
+      </div>
+      <div class="card">
+        <a href="otot.html">
+          <div>Cara Kerja Otot</div>
+          <img src="https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2024/09/25050248/Otot-Polos-Ini-Fungsi-Ciri-dan-Cara-Kerjanya.jpg" alt="Cara Kerja Otot" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
